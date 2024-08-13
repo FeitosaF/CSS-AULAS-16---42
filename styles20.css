@@ -1,0 +1,20 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+[meu-atributo~="valor3"] {
+    color: red;
+}
+
+[meu-atributo^="c"] {
+    color: blue;
+}
+
+[meu-atribut$="l"] {
+    color: red;
+}
+
+[meu-atribu*="mecou outr"] {
+    color: blueviolet;
+}

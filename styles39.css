@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container{
+ display: flex;
+ justify-content: space-between;
+ flex-flow: row wrap;
+ background: yellow;
+}
+.flex-item{
+flex: 1 1 320px; /*flex-grow flex-basis flex-shrink*/
+height: 200px;
+color: white;
+background: red;
+}
+.flex-item:nth-child(3){
+ order: 1;
+    }

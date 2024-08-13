@@ -1,0 +1,19 @@
+p:not(.meio){
+    color: blue;
+}
+input:not(:checked) + p{
+    background: red;
+}
+
+ul li:nth-child(odd){
+    background: rebeccapurple;
+}
+ul li:nth-child(even){
+    background: darkturquoise;
+}
+ul li:nth-child(3n){
+    background: darkolivegreen;
+}
+ul li:nth-child(3n+5){
+    background: darkred;
+}
